@@ -1,6 +1,10 @@
 import React from "react";
 import Rates from "./Rates";
 import TestimonyCard from "./TestimonyCard";
+// import bgMBottom from  "./images/bg-pattern-bottom-mobile.svg"
+import bgMTop from "./images/bg-pattern-top-mobile.svg"
+import bgDTop from "./images/bg-pattern-top-desktop.svg"
+// import bgDBottom from  "./images/bg-pattern-bottom-desktop.svg"
 
 const Social = () => {
   const data = [
@@ -19,19 +23,21 @@ const Social = () => {
   ];
 
   return ( 
-    <div>
-      <div>
+    <div className="">
+      <img src={bgMTop} alt="" className="block absolute md:hidden" />
+      <img src={bgDTop} alt="" className="hidden absolute md:block"/>
+      <div className="mb-10">
         <span>
-          <h1 className="font-bold">10,000+ of our users love our products.</h1>
-          <p>We only provide great products combined with excellent customer service. See what our satisfied
+          <h1 className="font-bold text-4xl p-10 w-full text-center leading-none text-dark-magenta">10,000+ of our users love our products.</h1>
+          <p className="p-5 text-dark-grayish-magenta mb-3">We only provide great products combined with excellent customer service. See what our satisfied
             customers are saying about our services.
           </p>
         </span>
 
         <span>
-          <div> <Rates/> </div>
-          <div> <Rates/> </div>
-          <div> <Rates/> </div>
+          <div className="text-center m-3 p-2 bg-light-Grayish-Magenta rounded-lg text-dark-magenta font-bold"> <Rates/> </div>
+          <div className="text-center m-3 p-2 bg-light-Grayish-Magenta rounded-lg text-dark-magenta font-bold"> <Rates/> </div>
+          <div className="text-center m-3 p-2 bg-light-Grayish-Magenta rounded-lg text-dark-magenta font-bold"> <Rates/> </div>
         </span>
       </div>
 
