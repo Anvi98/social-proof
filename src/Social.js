@@ -21,10 +21,10 @@ const Social = () => {
 
   return ( 
     <div className=" w-4/5 m-auto">
-      <div className="mb-10 block md:flex md:justify-between ">
-        <span className="flex-initial w-2/5">
-          <h1 className="font-bold text-4xl py-10 w-full text-center leading-none text-dark-magenta md:text-4xl md:text-left">10,000+ of our users love our products.</h1>
-          <p className="text-center p-5 text-dark-grayish-magenta mb-3 md:text-left">We only provide great products combined with excellent customer service. See what our satisfied
+      <div className="mb-10 block md:flex  ">
+        <span className="flex-initial w-2/5 m-auto">
+          <h1 className="text-center w-full font-bold text-4xl py-10 leading-none text-dark-magenta md:text-4xl md:text-left md:w-3/5">10,000+ of our users love our products.</h1>
+          <p className="text-center py-5 text-dark-grayish-magenta mb-3 md:text-left">We only provide great products combined with excellent customer service. See what our satisfied
             customers are saying about our services.
           </p>
         </span>
