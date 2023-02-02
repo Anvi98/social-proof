@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution]()
-- Live Site URL: [Live Demo]()
+- Live Site URL: [Live Demo](https://anvi98.github.io/social-proof/)
 
 ## My process
 

@@ -16,7 +16,7 @@ const TestimonyCard = (props) => {
       </span>
       <span className="my-3">
         <p>{user}</p>
-        <p>Verified Buyer</p>
+        <p className="text-soft-pink">Verified Buyer</p>
       </span>
       </div>
       <p>{msg}</p>
